@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyRefresh_Example' do
+  pod 'MyRefresh', :path => '../'
+
+  target 'MyRefresh_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

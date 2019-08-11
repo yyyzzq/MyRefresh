@@ -1,0 +1,6 @@
+framework module MyRefresh {
+  umbrella header "MyRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

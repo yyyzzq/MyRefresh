@@ -1,0 +1,16 @@
+PODS:
+  - MyRefresh (0.0.1)
+
+DEPENDENCIES:
+  - MyRefresh (from `../`)
+
+EXTERNAL SOURCES:
+  MyRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyRefresh: 2f331a4f4e5df10190d0bc13ca4a175ba2fc46a3
+
+PODFILE CHECKSUM: 7648d8cb31cdff3a7e02a4613189ede760505ed2
+
+COCOAPODS: 1.7.5

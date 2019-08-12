@@ -10,11 +10,11 @@ import UIKit
 
 open class MyRefreshFooter: MyRefreshControl {
     
-    public static func footerWithRefreshing(action: @escaping (()->Void)) -> MyRefreshFooter {
-        let footer = self.init()
-        footer.refreshCallBack = action
-        return footer
-    }
+//    public static func footerWithRefreshing(action: @escaping (()->Void)) -> MyRefreshFooter {
+//        let footer = self.init()
+//        footer.refreshCallBack = action
+//        return footer
+//    }
     
     override open func layoutSubviews() {
         super.layoutSubviews()

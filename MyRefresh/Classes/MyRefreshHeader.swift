@@ -10,11 +10,11 @@ import UIKit
 
 open class MyRefreshHeader: MyRefreshControl {
     
-    public static func headerWithRefreshing(action: @escaping (()->Void)) -> MyRefreshHeader {
-        let header = self.init()
-        header.refreshCallBack = action
-        return header
-    }
+//    public static func headerWithRefreshing(action: @escaping (()->Void)) -> MyRefreshHeader {
+//        let header = self.init()
+//        header.refreshCallBack = action
+//        return header
+//    }
     
     override open var refreshState: MyRefreshState {
         didSet {

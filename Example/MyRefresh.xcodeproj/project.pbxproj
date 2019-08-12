@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2733115DDDE53CF161789747 /* Pods_MyRefresh_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E59904A8FDA38E7E4777FA9 /* Pods_MyRefresh_Example.framework */; };
+		46FE2CE82301521700E58ED2 /* MyRefreshTestHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46FE2CE72301521700E58ED2 /* MyRefreshTestHeader.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		0B79C1A6D7D216857FB3093E /* Pods_MyRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA4D42D9EC8F7910250B3AE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		25A2E8EFBECBAA9AE459837F /* Pods-MyRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRefresh_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyRefresh_Tests/Pods-MyRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		46FE2CE72301521700E58ED2 /* MyRefreshTestHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRefreshTestHeader.swift; sourceTree = "<group>"; };
 		4E59904A8FDA38E7E4777FA9 /* Pods_MyRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MyRefresh_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRefresh_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				46FE2CE72301521700E58ED2 /* MyRefreshTestHeader.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -333,6 +336,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				46FE2CE82301521700E58ED2 /* MyRefreshTestHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

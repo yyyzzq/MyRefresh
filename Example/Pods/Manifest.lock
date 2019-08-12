@@ -1,5 +1,5 @@
 PODS:
-  - MyRefresh (0.0.1)
+  - MyRefresh (0.0.3)
 
 DEPENDENCIES:
   - MyRefresh (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyRefresh: c9d9b7d297f11ec1b3d674400e6a8dfef27a85b1
+  MyRefresh: beba34be4c77d9257f327615627ebb01d8652936
 
 PODFILE CHECKSUM: 7648d8cb31cdff3a7e02a4613189ede760505ed2
 

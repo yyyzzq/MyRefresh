@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		06BF150891715E2CAD3525D156EF5A87 /* Pods-MyRefresh_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 723827F52025A18A936A9A89A5A0B468 /* Pods-MyRefresh_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		277B82CF623AFAA3A79315FC835A4C02 /* MyRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9DF7571927C1B34928463269682785 /* MyRefreshHeader.swift */; };
-		3B3CD5253BC260A2A3792F42CE19F09F /* MyRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E0B4BBE4CB4641D833D48CF6F621FE /* MyRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53335B631D8448061310A3D5491B870C /* MyRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C088E46A536FA4AA8EAAF40CA7AFF9 /* MyRefresh-dummy.m */; };
+		1A2CBEC4135A4BA5EFE1C5892D426C48 /* UIScrollView+MyRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC08DCF15F9FB9054A972D31C96E677 /* UIScrollView+MyRefresh.swift */; };
+		3B3CD5253BC260A2A3792F42CE19F09F /* MyRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0429408F96CBD8BD0D1487E372FC95F5 /* MyRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53335B631D8448061310A3D5491B870C /* MyRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B11EA0DA7226DBF4192AB53494E265 /* MyRefresh-dummy.m */; };
+		5DCCCAB55D650047BF05EC7C26153E72 /* MyRefreshPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0872C8A0172215F8A8402F64694A4A2 /* MyRefreshPlaceHolder.swift */; };
+		6896D844D8624CFC2E6EB8E8FA23CB6B /* MyRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E33D520C6F7F51B1DD5952D3B0D12FA /* MyRefreshFooter.swift */; };
 		6E7109F430F95BBA60C21C4D4C7715E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		79CD65538895AA0D7F8B5433A94FFCA4 /* Pods-MyRefresh_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C94763F4AFD35A7B6F1A3F5BEFD7F2 /* Pods-MyRefresh_Example-dummy.m */; };
-		978C4F16BF64FA0489D1BC7B4186C692 /* UIScrollView+MyRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50C92B0EFED01AB1510BA83CC867C17 /* UIScrollView+MyRefresh.swift */; };
-		97C3ED38ED360FC8D6A83CEBFC84F0DC /* MyRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F410F9FCF7AB76A85BA4C4DCC18F7E29 /* MyRefreshFooter.swift */; };
-		98151E3049DF73CFFA88E25B18C6F234 /* MyRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA2B7E8EFD1145063185E17BE632180 /* MyRefreshControl.swift */; };
 		9ED89BBC780BF6FC9CBD69374B1446AF /* Pods-MyRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B19F4D3A1BFAF4539BFEE700B1C485A4 /* Pods-MyRefresh_Tests-dummy.m */; };
-		A25CB3D2F3FD0D5B3E1D0F4FB87CA1D2 /* MyRefreshPlaceHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF14F19879CA1E42393100B4FF448CA /* MyRefreshPlaceHolder.swift */; };
+		A46808198541CD829D1C72F8B28BE41B /* MyRefreshPullFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FCFF9FF7717D32B5BD5C015679813E /* MyRefreshPullFooter.swift */; };
+		A886AB37DCC186673A79848A95646DED /* MyRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFD66621C29CDD3F2BE81D50D938E59 /* MyRefreshControl.swift */; };
 		B49BB1443D980FA1EA837F069046D47D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B6C295EFC5B37FD9027137920751ED9D /* MyRefreshAutoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4092756037A9AE54F4EB213B324C949B /* MyRefreshAutoFooter.swift */; };
 		CE105ABFC9A9779A5AD31E3CF1566F09 /* Pods-MyRefresh_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54B5227B1D2C713D594CED1C291EE639 /* Pods-MyRefresh_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA12183C0BB8F90994CD593EA987CA6C /* MyRefreshPullFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7513E617F4AA74830982C1894AAC18 /* MyRefreshPullFooter.swift */; };
-		ED501159D8351FD043F5F8F25C1BB2B9 /* MyRefreshAutoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09A3D9C1674CB99913A0D55F0F7BFC4 /* MyRefreshAutoFooter.swift */; };
+		CE321548481AD0BBE4C9379368826C3C /* MyRefreshAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F643C0539D7EE1EE1F18A6A0AFD31C9 /* MyRefreshAnimation.swift */; };
+		D6E521BE8E5BC757B7826B855253AD84 /* MyRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5620D45561D0B19D94E157F8E7F6C68 /* MyRefreshHeader.swift */; };
 		F0380F09CE038FBBC79E32DC0B700E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		F8D0490CD1507E9A267908796B6F5EB9 /* MyRefreshAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD8666209D6EA7CB57176855C986452 /* MyRefreshAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,45 +44,45 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0429408F96CBD8BD0D1487E372FC95F5 /* MyRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyRefresh-umbrella.h"; sourceTree = "<group>"; };
 		057989DB7A221AB02E0D5A29116ABD72 /* Pods-MyRefresh_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyRefresh_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0A9DF7571927C1B34928463269682785 /* MyRefreshHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshHeader.swift; path = MyRefresh/Classes/MyRefresh/MyRefreshHeader.swift; sourceTree = "<group>"; };
+		0E1F804152DFF1DC606B64F1833FCDC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1AB9354C8363DF882DACFA6C4D8F76A8 /* MyRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyRefresh-prefix.pch"; sourceTree = "<group>"; };
 		248F650B824B16194E1F124B28F2BC89 /* Pods-MyRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2BA39B5D2D737390582884464A446440 /* Pods_MyRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyRefresh_Tests.framework; path = "Pods-MyRefresh_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CEF4587A83087C034645771736AB91F /* MyRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		30FCFF9FF7717D32B5BD5C015679813E /* MyRefreshPullFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshPullFooter.swift; path = MyRefresh/Classes/MyRefreshPullFooter.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		37BE04F7C50E1B6158C1859ACB7A933C /* Pods-MyRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		37C94763F4AFD35A7B6F1A3F5BEFD7F2 /* Pods-MyRefresh_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyRefresh_Example-dummy.m"; sourceTree = "<group>"; };
 		3976EF8780FA756E0FBA16EC8C5D5C4D /* Pods-MyRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		40C088E46A536FA4AA8EAAF40CA7AFF9 /* MyRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyRefresh-dummy.m"; sourceTree = "<group>"; };
+		3D45535052194B8CE68A0A10F9DFD95F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4092756037A9AE54F4EB213B324C949B /* MyRefreshAutoFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshAutoFooter.swift; path = MyRefresh/Classes/MyRefreshAutoFooter.swift; sourceTree = "<group>"; };
 		4262B40162E4175DE66B25F142FEEE6D /* Pods-MyRefresh_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyRefresh_Tests.modulemap"; sourceTree = "<group>"; };
-		4B9F0031A2AA260E84C6D2BEAB29D8DC /* MyRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyRefresh.modulemap; sourceTree = "<group>"; };
 		4D1B7AF09988E353B72AE1AA2CAB67F0 /* MyRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyRefresh.framework; path = MyRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E248F32C12F5BC31C01102C821DA29A /* MyRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyRefresh.modulemap; sourceTree = "<group>"; };
 		54B5227B1D2C713D594CED1C291EE639 /* Pods-MyRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
-		5A7513E617F4AA74830982C1894AAC18 /* MyRefreshPullFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshPullFooter.swift; path = MyRefresh/Classes/MyRefresh/MyRefreshPullFooter.swift; sourceTree = "<group>"; };
 		723827F52025A18A936A9A89A5A0B468 /* Pods-MyRefresh_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyRefresh_Tests-umbrella.h"; sourceTree = "<group>"; };
-		73E0B4BBE4CB4641D833D48CF6F621FE /* MyRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyRefresh-umbrella.h"; sourceTree = "<group>"; };
 		750B34BC24D80A871B6DCA39A72AB2FC /* Pods-MyRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C8BC5ED1B7B7265779522EAB79A5CB3 /* MyRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyRefresh-Info.plist"; sourceTree = "<group>"; };
+		7E33D520C6F7F51B1DD5952D3B0D12FA /* MyRefreshFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshFooter.swift; path = MyRefresh/Classes/MyRefreshFooter.swift; sourceTree = "<group>"; };
+		83B11EA0DA7226DBF4192AB53494E265 /* MyRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyRefresh-dummy.m"; sourceTree = "<group>"; };
 		875B6DC6BE1C0E91260CCC8EE8CE95D4 /* Pods-MyRefresh_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRefresh_Example-Info.plist"; sourceTree = "<group>"; };
 		89C51013B7546D0C55C037DD5F8478B3 /* Pods-MyRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8AD8666209D6EA7CB57176855C986452 /* MyRefreshAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshAnimation.swift; path = MyRefresh/Classes/MyRefresh/MyRefreshAnimation.swift; sourceTree = "<group>"; };
-		8D01EE024E58EC004630BB7EC0A00249 /* MyRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyRefresh.xcconfig; sourceTree = "<group>"; };
+		8F643C0539D7EE1EE1F18A6A0AFD31C9 /* MyRefreshAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshAnimation.swift; path = MyRefresh/Classes/MyRefreshAnimation.swift; sourceTree = "<group>"; };
 		9213F67C17BCDCB31AB89ADB3D1BEEA9 /* Pods-MyRefresh_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRefresh_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		93DD783B20C6355F0280F1F386BD10C5 /* Pods-MyRefresh_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyRefresh_Example.modulemap"; sourceTree = "<group>"; };
 		9A95DAE1AEE97FC20C9043F06FF76DE5 /* Pods_MyRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyRefresh_Example.framework; path = "Pods-MyRefresh_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A70718ED822F01E41BC4BBBE265952D8 /* Pods-MyRefresh_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyRefresh_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A76D78AC3F46671FA5184B894EDFB076 /* MyRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyRefresh-prefix.pch"; sourceTree = "<group>"; };
-		AF7F024715A4A0CC8B83D920A4DFFE0B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AEC08DCF15F9FB9054A972D31C96E677 /* UIScrollView+MyRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+MyRefresh.swift"; path = "MyRefresh/Classes/UIScrollView+MyRefresh.swift"; sourceTree = "<group>"; };
 		B19F4D3A1BFAF4539BFEE700B1C485A4 /* Pods-MyRefresh_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyRefresh_Tests-dummy.m"; sourceTree = "<group>"; };
-		BA07E8A9FDF66B4DD23D2D3445FE1A2D /* MyRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyRefresh-Info.plist"; sourceTree = "<group>"; };
+		BEFD66621C29CDD3F2BE81D50D938E59 /* MyRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshControl.swift; path = MyRefresh/Classes/MyRefreshControl.swift; sourceTree = "<group>"; };
 		C6537C4048152BEC77DC7BF5608F5E71 /* Pods-MyRefresh_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyRefresh_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DBF14F19879CA1E42393100B4FF448CA /* MyRefreshPlaceHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshPlaceHolder.swift; path = MyRefresh/Classes/MyRefresh/MyRefreshPlaceHolder.swift; sourceTree = "<group>"; };
-		E50C92B0EFED01AB1510BA83CC867C17 /* UIScrollView+MyRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+MyRefresh.swift"; path = "MyRefresh/Classes/MyRefresh/UIScrollView+MyRefresh.swift"; sourceTree = "<group>"; };
-		E5D7CE6986906B0292FE1FD5DCB076C6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		ECA2B7E8EFD1145063185E17BE632180 /* MyRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshControl.swift; path = MyRefresh/Classes/MyRefresh/MyRefreshControl.swift; sourceTree = "<group>"; };
-		F09A3D9C1674CB99913A0D55F0F7BFC4 /* MyRefreshAutoFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshAutoFooter.swift; path = MyRefresh/Classes/MyRefresh/MyRefreshAutoFooter.swift; sourceTree = "<group>"; };
+		DA32B4C5DB303A2231364A97112B6BE7 /* MyRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyRefresh.xcconfig; sourceTree = "<group>"; };
+		E0872C8A0172215F8A8402F64694A4A2 /* MyRefreshPlaceHolder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshPlaceHolder.swift; path = MyRefresh/Classes/MyRefreshPlaceHolder.swift; sourceTree = "<group>"; };
+		E5620D45561D0B19D94E157F8E7F6C68 /* MyRefreshHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshHeader.swift; path = MyRefresh/Classes/MyRefreshHeader.swift; sourceTree = "<group>"; };
 		F1A57C4AF72BD365B6EA8A67AD5A881B /* Pods-MyRefresh_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyRefresh_Tests-Info.plist"; sourceTree = "<group>"; };
-		F410F9FCF7AB76A85BA4C4DCC18F7E29 /* MyRefreshFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyRefreshFooter.swift; path = MyRefresh/Classes/MyRefresh/MyRefreshFooter.swift; sourceTree = "<group>"; };
+		F46DE2108952F88A424161CB8D79E558 /* MyRefresh.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyRefresh.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +113,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		129F586D38267B7F2B3C8E8FC526AE44 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0E1F804152DFF1DC606B64F1833FCDC7 /* LICENSE */,
+				F46DE2108952F88A424161CB8D79E558 /* MyRefresh.podspec */,
+				3D45535052194B8CE68A0A10F9DFD95F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1A735EFAF888EFDD12586D580C0E7A6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E248F32C12F5BC31C01102C821DA29A /* MyRefresh.modulemap */,
+				DA32B4C5DB303A2231364A97112B6BE7 /* MyRefresh.xcconfig */,
+				83B11EA0DA7226DBF4192AB53494E265 /* MyRefresh-dummy.m */,
+				7C8BC5ED1B7B7265779522EAB79A5CB3 /* MyRefresh-Info.plist */,
+				1AB9354C8363DF882DACFA6C4D8F76A8 /* MyRefresh-prefix.pch */,
+				0429408F96CBD8BD0D1487E372FC95F5 /* MyRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MyRefresh";
+			sourceTree = "<group>";
+		};
+		2BA4B61C6BEFD58ABBE93FC03DD0160A /* MyRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				8F643C0539D7EE1EE1F18A6A0AFD31C9 /* MyRefreshAnimation.swift */,
+				4092756037A9AE54F4EB213B324C949B /* MyRefreshAutoFooter.swift */,
+				BEFD66621C29CDD3F2BE81D50D938E59 /* MyRefreshControl.swift */,
+				7E33D520C6F7F51B1DD5952D3B0D12FA /* MyRefreshFooter.swift */,
+				E5620D45561D0B19D94E157F8E7F6C68 /* MyRefreshHeader.swift */,
+				E0872C8A0172215F8A8402F64694A4A2 /* MyRefreshPlaceHolder.swift */,
+				30FCFF9FF7717D32B5BD5C015679813E /* MyRefreshPullFooter.swift */,
+				AEC08DCF15F9FB9054A972D31C96E677 /* UIScrollView+MyRefresh.swift */,
+				129F586D38267B7F2B3C8E8FC526AE44 /* Pod */,
+				1A735EFAF888EFDD12586D580C0E7A6F /* Support Files */,
+			);
+			name = MyRefresh;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		347D7FBA27AC8EB6B1E62D1F9F53B1DA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,30 +162,6 @@
 				7B7C4F19A7EA0AD108EE8C49DEAB9C6C /* Pods-MyRefresh_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3B07924DEA4CD11F4483C697CC1EDF5A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4B9F0031A2AA260E84C6D2BEAB29D8DC /* MyRefresh.modulemap */,
-				8D01EE024E58EC004630BB7EC0A00249 /* MyRefresh.xcconfig */,
-				40C088E46A536FA4AA8EAAF40CA7AFF9 /* MyRefresh-dummy.m */,
-				BA07E8A9FDF66B4DD23D2D3445FE1A2D /* MyRefresh-Info.plist */,
-				A76D78AC3F46671FA5184B894EDFB076 /* MyRefresh-prefix.pch */,
-				73E0B4BBE4CB4641D833D48CF6F621FE /* MyRefresh-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MyRefresh";
-			sourceTree = "<group>";
-		};
-		63745BD7CC5ED591F91C9AAB691ED6F6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E5D7CE6986906B0292FE1FD5DCB076C6 /* LICENSE */,
-				2CEF4587A83087C034645771736AB91F /* MyRefresh.podspec */,
-				AF7F024715A4A0CC8B83D920A4DFFE0B /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		7B7C4F19A7EA0AD108EE8C49DEAB9C6C /* Pods-MyRefresh_Tests */ = {
@@ -160,24 +178,6 @@
 			);
 			name = "Pods-MyRefresh_Tests";
 			path = "Target Support Files/Pods-MyRefresh_Tests";
-			sourceTree = "<group>";
-		};
-		89AF819FA838A23E436CB5628419C29E /* MyRefresh */ = {
-			isa = PBXGroup;
-			children = (
-				8AD8666209D6EA7CB57176855C986452 /* MyRefreshAnimation.swift */,
-				F09A3D9C1674CB99913A0D55F0F7BFC4 /* MyRefreshAutoFooter.swift */,
-				ECA2B7E8EFD1145063185E17BE632180 /* MyRefreshControl.swift */,
-				F410F9FCF7AB76A85BA4C4DCC18F7E29 /* MyRefreshFooter.swift */,
-				0A9DF7571927C1B34928463269682785 /* MyRefreshHeader.swift */,
-				DBF14F19879CA1E42393100B4FF448CA /* MyRefreshPlaceHolder.swift */,
-				5A7513E617F4AA74830982C1894AAC18 /* MyRefreshPullFooter.swift */,
-				E50C92B0EFED01AB1510BA83CC867C17 /* UIScrollView+MyRefresh.swift */,
-				63745BD7CC5ED591F91C9AAB691ED6F6 /* Pod */,
-				3B07924DEA4CD11F4483C697CC1EDF5A /* Support Files */,
-			);
-			name = MyRefresh;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -212,7 +212,7 @@
 		D105B45474923F2B025F44CBAC7F6C5C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				89AF819FA838A23E436CB5628419C29E /* MyRefresh */,
+				2BA4B61C6BEFD58ABBE93FC03DD0160A /* MyRefresh */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -386,14 +386,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				53335B631D8448061310A3D5491B870C /* MyRefresh-dummy.m in Sources */,
-				F8D0490CD1507E9A267908796B6F5EB9 /* MyRefreshAnimation.swift in Sources */,
-				ED501159D8351FD043F5F8F25C1BB2B9 /* MyRefreshAutoFooter.swift in Sources */,
-				98151E3049DF73CFFA88E25B18C6F234 /* MyRefreshControl.swift in Sources */,
-				97C3ED38ED360FC8D6A83CEBFC84F0DC /* MyRefreshFooter.swift in Sources */,
-				277B82CF623AFAA3A79315FC835A4C02 /* MyRefreshHeader.swift in Sources */,
-				A25CB3D2F3FD0D5B3E1D0F4FB87CA1D2 /* MyRefreshPlaceHolder.swift in Sources */,
-				DA12183C0BB8F90994CD593EA987CA6C /* MyRefreshPullFooter.swift in Sources */,
-				978C4F16BF64FA0489D1BC7B4186C692 /* UIScrollView+MyRefresh.swift in Sources */,
+				CE321548481AD0BBE4C9379368826C3C /* MyRefreshAnimation.swift in Sources */,
+				B6C295EFC5B37FD9027137920751ED9D /* MyRefreshAutoFooter.swift in Sources */,
+				A886AB37DCC186673A79848A95646DED /* MyRefreshControl.swift in Sources */,
+				6896D844D8624CFC2E6EB8E8FA23CB6B /* MyRefreshFooter.swift in Sources */,
+				D6E521BE8E5BC757B7826B855253AD84 /* MyRefreshHeader.swift in Sources */,
+				5DCCCAB55D650047BF05EC7C26153E72 /* MyRefreshPlaceHolder.swift in Sources */,
+				A46808198541CD829D1C72F8B28BE41B /* MyRefreshPullFooter.swift in Sources */,
+				1A2CBEC4135A4BA5EFE1C5892D426C48 /* UIScrollView+MyRefresh.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +433,7 @@
 /* Begin XCBuildConfiguration section */
 		10CF529869B630BFE3365A860B6A7C03 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D01EE024E58EC004630BB7EC0A00249 /* MyRefresh.xcconfig */;
+			baseConfigurationReference = DA32B4C5DB303A2231364A97112B6BE7 /* MyRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -622,7 +622,7 @@
 		};
 		95B150B0807F08C081EE3825D90AF199 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D01EE024E58EC004630BB7EC0A00249 /* MyRefresh.xcconfig */;
+			baseConfigurationReference = DA32B4C5DB303A2231364A97112B6BE7 /* MyRefresh.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -68,14 +68,14 @@ extension UIScrollView {
         }
     }
     
-    public func register(refreshHeader: MyRefreshHeader, _ action: @escaping (()->Void)) {
-        self.refreshHeader = refreshHeader
-        self.refreshHeader?.refreshCallBack = action
+    public func register(refreshHeader header : MyRefreshHeader, _ action: @escaping (()->Void)) {
+        header.refreshCallBack = action
+        self.refreshHeader = header
     }
     
-    public func register(refreshFooter: MyRefreshFooter, _ action: @escaping (()->Void)) {
-        self.refreshFooter = refreshFooter
-        self.refreshHeader?.refreshCallBack = action
+    public func register(refreshFooter footer : MyRefreshFooter, _ action: @escaping (()->Void)) {
+        footer.refreshCallBack = action
+        self.refreshFooter = footer
     }
     
     func removeRefreshHeader() {
